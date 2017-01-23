@@ -1,5 +1,9 @@
 ## Usage
-In a terminal, navigate to `app/frontend` folder where `docker-compose.yaml` exists and build the image.
+[Install Docker](https://www.docker.com/). 
+
+[Clone this repo](https://github.com/lewisrodgers/poc-containerized-dev-tools).
+
+In a terminal, navigate to the `app/frontend` folder where `docker-compose.yaml` exists and build the image.
 
 ```bash
 $ docker-compose build
