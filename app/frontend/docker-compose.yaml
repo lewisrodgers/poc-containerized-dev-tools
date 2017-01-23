@@ -1,0 +1,9 @@
+version: "3"
+services:
+    myapp:
+        build: ../../docker
+        command: grunt watch
+        volumes:
+            - .:/home/app
+            - /home/app/node_modules
+            - /home/app/vendor
